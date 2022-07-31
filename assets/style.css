@@ -31,8 +31,8 @@
 }
 
 #navbar-logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  background-color: #9f25c4;
+  background-image: linear-gradient(to top, #db3eb1 60%, #9f25c4 40%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -93,7 +93,7 @@
 }
 
 .navbar__links:hover {
-  color: #9518fc;
+  color: #db3eb1;
   transition: all 0.3s ease;
 }
 
@@ -274,7 +274,9 @@
 
 /* About Section */
 .main {
-  background-color: #131313;
+  /* background-color: radial-gradient(); */
+  background-image: radial-gradient( #310299 , #200163 ,#200163);
+  background-color: #fff;
   padding: 10rem 0;
 }
 
@@ -593,7 +595,7 @@
 
 /* Footer CSS */
 .footer__container {
-  background-color: #131313;
+  background: linear-gradient(#200163, #12001e, #12001e );
   padding: 5rem 0;
   display: flex;
   flex-direction: column;
