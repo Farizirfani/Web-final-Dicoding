@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 19px;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -199,6 +199,7 @@
 }
 
 .hero__container {
+  /* display: grid; */
   display: flex;
   flex-direction: column;
   justify-content: center;
