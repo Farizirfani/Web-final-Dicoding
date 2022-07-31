@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: linear-gradient(to right, #12001e , #14001e );
   height: 80px;
   display: flex;
   justify-content: center;
@@ -121,7 +121,7 @@
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: linear-gradient(to right, #12001e , #14001e );
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -134,7 +134,7 @@
     padding-left: 25px;
   }
 
-  .navbar__toggle .bar {
+  .navbar-toggle .bar {
     width: 25px;
     height: 3px;
     margin: 5px auto;
@@ -173,7 +173,7 @@
     transform: translate(5%, 20%);
   }
 
-  .navbar__toggle .bar {
+  .navbar-toggle .bar {
     display: block;
     cursor: pointer;
   }
@@ -194,7 +194,7 @@
 /* Hero Section */
 .hero {
   background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
+  background: linear-gradient( #12001e ,#200163);
   padding: 200px 0;
 }
 
@@ -256,7 +256,9 @@
 }
 
 .highlight {
-  border-bottom: 4px solid rgb(132, 0, 255);
+  border-bottom: 3px solid  rgb(132, 0, 255);
+  /* border-radius: 1px; */
+  filter: drop-shadow(0 0 15px #db3eb1) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
 }
 
 @media screen and (max-width: 768px) {
