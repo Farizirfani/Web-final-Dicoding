@@ -1,3 +1,3 @@
-# Web-final-Dicoding
+# Web-Futuristic
 
 Website dengan desain futuristic
