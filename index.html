@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-
+  <header>
     <!-- Navbar Section -->
   <navbar>
     <nav class="navbar">
@@ -30,8 +30,8 @@
             <a href="#about" class="navbar-links" id="about-page">About</a>
           </li>
           <li class="navbar-items">
-            <a href="#services" class="navbar-links" id="services-page"
-              >Services</a
+            <a href="#fitur" class="navbar-links" id="fitur-page"
+              >Fitur</a
             >
           </li>
           <li class="navbar-btn">
@@ -41,11 +41,12 @@
       </div>
     </nav>
   </navbar>
+  </header>
 
     <!-- jumbotron -->
     <div class="jumbotron" id="home">
       <div class="jumbotron-container">
-        <img class="jumbo-img" src="assets/img/polygon.png" alt="">
+        <img class="jumbo-img" src="assets/img/gambar-2.png" alt="">
         <div>
           <h1 class="jumbotron-heading">Website <span>Futuristic</span></h1>
           <br>
@@ -55,66 +56,61 @@
       </div>
         <div class="jumbotron-text">
           <p class="jumbotron-description">For the future</p>
-          <!-- <button class="main-btn"><a href="#">Explore</a></button> -->
         </div>
     </div>
 
     <!-- main -->
   <main>
-    <div class="main" id="about">
-      <div class="main-container">
-        <div class="main-img--container">
-          <div class="main-img--card">
-            <img src="assets/img/etherium-ungu.png"  class="main-img" alt="">
+    <article>
+
+      <!-- ethereum -->
+      <div class="main" id="about">
+        <div class="main-container">
+          <div class="main-img--container">
+            <div class="main-img--card">
+              <img class="main-img" src="assets/img/etherium-ungu.png" alt="">
+            </div>
+          </div>
+          <div class="main-content">
+            <h2>Ethereum</h2>
+            <p>Ethereum adalah sebuah platform rantai blok dengan fungsi kontrak cerdas. Ethereum mempunyai fungsi seumpama virtual machine yang bisa menjalankan kontrak cerdas peer-to-peer dengan uang kripto Ether.</p>
+            <button class="main-btn"><a href="https://ethereum.org/id/" target="_blank" rel="noopener noreferrer"> Learn more</a></button>
           </div>
         </div>
-        <div class="main-content">
-          <h2>Ethereum</h2>
-          <p>Ethereum adalah sebuah platform rantai blok dengan fungsi kontrak cerdas. Ethereum mempunyai fungsi seumpama virtual machine yang bisa menjalankan kontrak cerdas peer-to-peer dengan uang kripto Ether.</p>
-          <button class="main-btn"><a href="https://ethereum.org/id/" target="_blank" rel="noopener noreferrer"> Learn more</a></button>
+      </div>
+  
+      <!-- filecoin -->
+      <div class="main-2" id="about">
+        <div class="main-container-2">
+          <div class="main-content-2">
+            <h2>Filecoin</h2>
+            <p>Filecoin adalah open-source, cryptocurrency publik dan sistem pembayaran digital yang dimaksudkan untuk menjadi penyimpanan digital kooperatif dan metode pengambilan data berbasis blockchain.</p>
+            <button class="main-btn"><a href="#">Schedule Call</a></button>
+          </div>
+          <div class="main-img--container-2">
+            <div class="main-img--card-2">
+              <img class="main-img" src="assets/img/filecoin.png" alt="">
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-
-  <article>
-    <div class="main-2" id="about">
-      <div class="main-container-2">
-        <div class="main-content-2">
-          <h1> bagian 2 </h1>
-          <h2>We help businesses scale</h2>
-          <p>Schedule a call to learn more about our services</p>
-          <button class="main-btn"><a href="#">Schedule Call</a></button>
-        </div>
-        <div class="main-img--container">
-          <div class="main-img--card"><i class="fas fa-layer-group"></i></div>
-        </div>
-      </div>
-    </div>
   </article>
 
-    <!-- fungsi -->
-    <div class="services" id="services">
-      <h1> fungsi </h1>
-      <div class="services__wrapper">
-        <div class="services__card">
-          <h2>Custom Colorways</h2>
-          <p>AI Powered technology</p>
-          <div class="services__btn"><button>Get Started</button></div>
+    <!-- blockchain -->
+    <div class="fitur" id="fitur">
+      <h1> blockchain </h1>
+      <div class="fitur__wrapper">
+        <div class="fitur__card">
+          <img src="assets/img/aave.png" alt="">
         </div>
-        <div class="services__card">
-          <h2>Are you Ready?</h2>
-          <p>Take the lepa</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="fitur__card">
+          <img src="assets/img/polygon.png" alt="">
         </div>
-        <div class="services__card">
-          <h2>Full Gradients</h2>
-          <p>100 Combinations</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="fitur__card">
+          <img src="assets/img/ethereum.png" alt="">
         </div>
-        <div class="services__card">
-          <h2>Infinite Choices</h2>
-          <p>1000's of colors</p>
-          <div class="services__btn"><button>Get Started</button></div>
+        <div class="fitur__card">
+          <img src="assets/img/bitcoin.png" alt="">
         </div>
       </div>
     </div>
@@ -122,17 +118,16 @@
 
 
     <!-- aside -->
-    <div class="main" id="profil-btn">
-      <div class="main-container">
-        <div class="main-content">
-          <h1>Join Our Team</h1>
-          <h2>Sign Up Today</h2>
-          <p>See what makes us different</p>
-          <button class="main-btn"><a href="#">Sign Up</a></button>
+    <div class="aside" id="profil-btn">
+      <div class="aside-container">
+        <div class="aside-content">
+          <h3>Profil</h3>
+          <h1>Muhammad Fariz irfani</h1>
+          <h2>email : farizirfani29@gmail.com</h2>
         </div>
-        <div class="main-img--container">
-          <div class="main-img--card" id="card-2">
-            <i class="fas fa-users"></i>
+        <div class="aside-img--container">
+          <div class="aside-img--card" id="card-2">
+            <img src="assets/img/" alt="">
           </div>
         </div>
       </div>
