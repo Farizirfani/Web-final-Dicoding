@@ -235,7 +235,7 @@
 }
 
 .jumbo-img{
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
 } 
 
@@ -329,6 +329,12 @@
   padding: 10rem 0;
 }
 
+.main-2 {
+  background-image: linear-gradient( #200163, #310299 , #310299, #131313);
+  background-color: #fff;
+  padding: 10rem 0;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -340,6 +346,13 @@
   width: 100%;
   max-width: 1300px;
   padding: 0 50px;
+}
+
+.main-img{
+  max-width: 50%;
+  width: auto;
+  justify-items: center;
+  margin: auto;
 }
 
 .main-content {
@@ -361,18 +374,15 @@
 }
 
 .main-content h2 {
-  font-size: 4rem;
-  background: #ff8177; /* fallback for old browsers */
+  font-size: 65px;
   background: -webkit-linear-gradient(
     to right,
     #9114ff,
     #da22ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  ); 
   background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    to right, #8f0eff, #da22ff
+  );
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -382,7 +392,7 @@
 
 .main-content p {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 25px;
   font-weight: 700;
 }
 
@@ -390,8 +400,7 @@
   font-size: 1.8rem;
   background: #833ab4;
   color: #fff;
-  background: -webkit-linear-gradient(to right,#56CCF2, #2F80ED);
-  background: linear-gradient(to right, #56CCF2, #2F80ED);
+  background: #9926fc;
   padding: 20px 60px;
   border: none;
   border-radius: 25px;
@@ -401,6 +410,7 @@
   transition: all 0.35s;
   outline: none;
 }
+
 
 .main-btn a {
   position: relative;
@@ -416,9 +426,8 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff1ead;
-  transition: all 0.35s;
-  border-radius: 4px;
+  background: #8f0eff;
+  border-radius: 25px;
 }
 
 .main-btn:hover {
@@ -435,14 +444,14 @@
 
 .main-img--card {
   margin: 10px;
-  height: 500px;
-  width: 500px;
-  border-radius: 4px;
+  height: 450px;
+  width: 450px;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-image: linear-gradient(to top right, #4c00ff 0%, #600e8f 100%);
 }
 
 .fa-layer-group,
